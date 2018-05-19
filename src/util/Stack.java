@@ -27,10 +27,12 @@ public class Stack<E> {
 	}
 
 	public E pop() {
+		if (empty()) return null;
 		return data.remove(size() - 1);
 	}
 
 	public E peek() {
+		if (empty()) return null;
 		return data.get(size() - 1);
 	}
 
