@@ -1,8 +1,8 @@
 package util;
 
 public class ListNode<E> {
-	private E val;
-	private ListNode next;
+	public E val;
+	public ListNode next;
 
 	public ListNode(E x) {
 		val = x;
